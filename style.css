@@ -1,0 +1,79 @@
+/* sheared */
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* font raleway */
+
+.open-sans-raleway {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.primary-color{
+    color: #4E47FF;
+}
+
+
+ /* header */
+header{
+    background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
+    height: 588px;
+    
+}
+/* nav desine */
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav button{
+    width: 132px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: white;
+}
+
+ul{
+    
+    list-style: none;
+}
+
+.nav-logo{
+    font-weight: 900;
+}
+
+nav ul a{
+    background-color: #4E47FF;
+    color: white;
+    text-decoration: none;
+}
+.benner{
+    margin: 0 auto;
+    width: 905px;
+    height: 152px;
+    margin-top: 100px;
+    
+    
+}
+.banner-button{
+    margin-left: 380px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 174px;
+    height: 48px;
+}
+.banner-content h1{
+    font-weight: bold;
+    font-size: 62px;
+    text-align: center;
+}
