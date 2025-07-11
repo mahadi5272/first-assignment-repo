@@ -111,3 +111,36 @@ nav ul a{
 .action-item-tow img{
     border-radius: 50px;
 }
+/* producting section */
+.Productive-Users-Section{
+    width: 1140px;
+    height: 336px;
+    margin: 0 auto;
+    background-color: #eae9fd;
+    border-radius: 25px;
+    margin-top: 100px;
+    
+    
+}
+.Productive-title{
+    padding-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+}
+.Productive-container{
+    display: flex;
+    justify-content: center;
+    gap: 158px;
+    padding-bottom: 20px;
+}
+.Productive-item h1{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    margin-bottom: 0;
+}
+.Productive-item p{
+    margin-top: 0;
+}
