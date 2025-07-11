@@ -23,7 +23,7 @@
 
  /* header */
 header{
-    background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
+    background-image: url(./Assets/Hero-bg.png);
     height: 588px;
     
     
@@ -160,6 +160,12 @@ main{
     
 }
 /* Feedback */
+.Feedback-Section{
+    width: 1140px;
+    height: 342px;
+    margin: 0 auto;
+    
+}
 .Feedback-title{
     text-align: center;
     margin-top: 150px;
@@ -179,6 +185,14 @@ main{
     
     
 }
+
+.feedback-p{
+    color: #757575;
+}
+.feedback-p-tow{
+    color: #B3B3B3;
+}
+
 .introduc{
     display: flex;
     align-items: center;
@@ -245,6 +259,7 @@ form input.submit{
     width: 531px;
     height: 221px;
     margin: 0 auto;
+    
 }
 .fotter-section h1{
     text-align: center;
@@ -260,4 +275,13 @@ form input.submit{
 }
 .footer-perag{
     color: #8987A1;
+}
+/* hover efect */
+.hover{
+    transition: 1s;
+}
+.hover:hover{
+    background-color: rgb(57, 20, 136);
+    color: white;
+    
 }
